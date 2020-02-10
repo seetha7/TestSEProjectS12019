@@ -12,6 +12,8 @@
  $isbn=$_POST['isbn'];
 
 
+ //changed somthing
+
  $sql = "INSERT INTO  books (title,type,price,ISBN)
          VALUES ('$title','$type','$price','$isbn')";
 
